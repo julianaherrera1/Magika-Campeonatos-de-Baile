@@ -25,7 +25,7 @@
 
 <body class="bg-black text-white font-urbanist">
 
-     <!-- Hero Section 1 (Video o imagen de fondo) -->
+     <!-- Hero Section 1 - Introduccion-->
     <header class="relative h-screen overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
         <!-- Video de fondo (opcional) -->
@@ -53,7 +53,7 @@
 
     </header>
 
-   <!-- Sección 2 "Nuestra Historia" --><!-- Sección con fondo mejorado -->
+   <!-- Sección 2 Historia -->
    <section id="historia" class="py-24 px-4 bg-black relative">
     <!-- Fondo con textura sutil -->
     <div class="absolute inset-0 bg-gradient-to-br from-black to-[#000000] z-0"></div>
@@ -83,129 +83,352 @@
     </div>
   </section>
 
+  <!--Seccion 3 - Propuesta General-->
+  <div>
 
-    <!-- Sección Géneros (Cards interactivas) -->
-    <section class="py-16 px-4 bg-gray-900">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bungee text-center mb-12">GÉNEROS <span class="text-magika-purple">DESTACADOS</span></h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Card Break Dance -->
-                <div class="bg-gray-800 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-magika-purple/30 transition-all">
-                    <div class="h-48 bg-[url('https://example.com/breakdance-bg.jpg')] bg-cover bg-center"></div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-magika-yellow mb-2">BREAK DANCE</h3>
-                        <p class="text-gray-300">Demuestra tus movimientos acrobáticos y estilo libre.</p>
-                    </div>
-                </div>
-                <!-- Card Twerk -->
-                <div class="bg-gray-800 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-magika-pink/30 transition-all">
-                    <div class="h-48 bg-[url('https://example.com/twerk-bg.jpg')] bg-cover bg-center"></div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-magika-pink mb-2">TWEERK</h3>
-                        <p class="text-gray-300">Ritmo, cadera y actitud. ¡Sácale chispa a la pista!</p>
-                    </div>
-                </div>
-                <!-- Card Baile Grupal -->
-                <div class="bg-gray-800 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-magika-yellow/30 transition-all">
-                    <div class="h-48 bg-[url('https://example.com/urbano-bg.jpg')] bg-cover bg-center"></div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-magika-purple mb-2">BAILE URBANO GRUPAL</h3>
-                        <p class="text-gray-300">Sincronización y energía en equipo.</p>
-                    </div>
-                </div>
+  </div>
+
+  <!-- Sección 4:  Géneros  -->
+  <section id="generos" class="py-24 px-4 bg-[#0a0a0a]">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="text-gold-500 font-medium tracking-widest">EXPRESIONES URBANAS</span>
+        <h2 class="text-4xl md:text-5xl font-bold mt-2 font-playfair">GÉNEROS COMPETITIVOS</h2>
+        <div class="w-20 h-1 bg-gold-600 mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card Break Dance -->
+        <div class="group relative overflow-hidden rounded-xl bg-[#111111] border border-gray-800 hover:border-gold-500/50 transition-all duration-500 h-[500px]">
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 opacity-80"></div>
+          <img src="https://example.com/breakdance-bg.jpg" alt="Break Dance" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          
+          <div class="relative z-20 h-full flex flex-col justify-end p-8">
+            <div class="mb-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold bg-gold-600 text-black rounded-full">INDIVIDUAL</span>
             </div>
-        </div>
-    </section>
-
-    <!-- Sección Premios (Diseño tipo "street poster") -->
-    <section class="py-16 px-4 bg-black border-t-2 border-b-2 border-magika-purple">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bungee text-center mb-12 text-magika-yellow">¡PREMIOS <span class="text-magika-pink">QUE EXPLOTAN!</span></h2>
-            <div class="grid md:grid-cols-3 gap-8 text-center">
-                <!-- 1er Puesto -->
-                <div class="bg-gradient-to-b from-magika-purple to-black p-6 rounded-xl transform hover:scale-105 transition-all">
-                    <div class="text-6xl font-bungee text-magika-yellow mb-4">1°</div>
-                    <h3 class="text-2xl font-bold mb-2">$4 MILLONES</h3>
-                    <ul class="text-left space-y-2 mt-4">
-                        <li class="flex items-center"><span class="text-magika-yellow mr-2">★</span> Hospedaje para 2</li>
-                        <li class="flex items-center"><span class="text-magika-yellow mr-2">★</span> Paquete premio</li>
-                        <li class="flex items-center"><span class="text-magika-yellow mr-2">★</span> Inscripción FREE</li>
-                    </ul>
-                </div>
-                <!-- 2do Puesto -->
-                <div class="bg-gradient-to-b from-gray-800 to-black p-6 rounded-xl transform hover:scale-105 transition-all">
-                    <div class="text-6xl font-bungee text-magika-pink mb-4">2°</div>
-                    <h3 class="text-2xl font-bold mb-2">$2 MILLONES</h3>
-                    <p class="mt-4">+ Paquete de patrocinadores</p>
-                </div>
-                <!-- 3er Puesto -->
-                <div class="bg-gradient-to-b from-magika-pink to-black p-6 rounded-xl transform hover:scale-105 transition-all">
-                    <div class="text-6xl font-bungee text-white mb-4">3°</div>
-                    <h3 class="text-2xl font-bold mb-2">$1 MILLÓN</h3>
-                    <p class="mt-4">+ Paquete de patrocinadores</p>
-                </div>
+            <h3 class="text-3xl font-bold mb-3">BREAK DANCE</h3>
+            <p class="text-gray-300 mb-6">Movimientos acrobáticos, power moves y estilo libre que desafían la gravedad.</p>
+            <div class="flex items-center text-gold-500 font-medium">
+              <span>Ver detalles</span>
+              <i class="fas fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Formulario de Inscripción (Call-to-Action claro) -->
-    <section id="inscripcion" class="py-16 px-4 bg-gray-900">
-        <div class="max-w-2xl mx-auto bg-black p-8 rounded-xl border-2 border-magika-purple">
-            <h2 class="text-3xl font-bungee text-center mb-6 text-magika-yellow">INSCRÍBETE <span class="text-white">AHORA</span></h2>
-            <form class="space-y-4">
-                <div>
-                    <label class="block text-gray-300 mb-2">Nombre completo</label>
-                    <input type="text" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:ring-2 focus:ring-magika-purple">
-                </div>
-                <div>
-                    <label class="block text-gray-300 mb-2">Celular</label>
-                    <input type="tel" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:ring-2 focus:ring-magika-purple">
-                </div>
-                <div>
-                    <label class="block text-gray-300 mb-2">Email</label>
-                    <input type="email" class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:ring-2 focus:ring-magika-purple">
-                </div>
-                <div>
-                    <label class="block text-gray-300 mb-2">Género de baile</label>
-                    <select class="w-full px-4 py-3 bg-gray-800 rounded-lg focus:ring-2 focus:ring-magika-purple">
-                        <option>Break Dance</option>
-                        <option>Twerk</option>
-                        <option>Baile Urbano Grupal</option>
-                        <option>Baile en Pareja</option>
-                        <option>Graffiti</option>
-                    </select>
-                </div>
-                <button type="submit" class="w-full bg-magika-purple hover:bg-magika-pink text-white font-bold py-4 px-6 rounded-lg transition-all mt-6">
-                    ¡RESERVAR MI CUPO POR $500K!
-                </button>
-            </form>
+        
+        <!-- Card Twerk -->
+        <div class="group relative overflow-hidden rounded-xl bg-[#111111] border border-gray-800 hover:border-gold-500/50 transition-all duration-500 h-[500px]">
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 opacity-80"></div>
+          <img src="https://example.com/twerk-bg.jpg" alt="Twerk" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          
+          <div class="relative z-20 h-full flex flex-col justify-end p-8">
+            <div class="mb-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold bg-gold-600 text-black rounded-full">FEMENINO</span>
+            </div>
+            <h3 class="text-3xl font-bold mb-3">Twerk y DANCEHALL</h3>
+            <p class="text-gray-300 mb-6">Ritmo, cadera y actitud. Control total del movimiento corporal.</p>
+            <div class="flex items-center text-gold-500 font-medium">
+              <span>Ver detalles</span>
+              <i class="fas fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+            </div>
+          </div>
         </div>
-    </section>
+        
+        <!-- Card Baile Grupal -->
+        <div class="group relative overflow-hidden rounded-xl bg-[#111111] border border-gray-800 hover:border-gold-500/50 transition-all duration-500 h-[500px]">
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 opacity-80"></div>
+          <img src="https://example.com/urbano-bg.jpg" alt="Baile Urbano" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          
+          <div class="relative z-20 h-full flex flex-col justify-end p-8">
+            <div class="mb-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold bg-gold-600 text-black rounded-full">GRUPAL</span>
+            </div>
+            <h3 class="text-3xl font-bold mb-3">URBANO GRUPAL</h3>
+            <p class="text-gray-300 mb-6">Sincronización, energía y coreografías innovadoras en equipo.</p>
+            <div class="flex items-center text-gold-500 font-medium">
+              <span>Ver detalles</span>
+              <i class="fas fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!--Seccion 5 - Info detallada de los Eventos-->
+  <div>
 
-    <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-magika-purple">
-        <h3 class="text-2xl font-bold mb-4">FECHAS CLAVES</h3>
-        <ul class="space-y-3">
-            <li class="flex items-start"><span class="text-magika-yellow mr-2">►</span> Inicio: Mayo 2025</li>
-            <li class="flex items-start"><span class="text-magika-yellow mr-2">►</span> 2 noches por semana (Jueves, Viernes 7PM - Domingos 4PM)</li>
-            <li class="flex items-start"><span class="text-magika-yellow mr-2">►</span> 4 semanas de competencia</li>
-        </ul>
+    <section class="py-16 px-4 bg-[#0a0a0a]">
+        <div class="max-w-5xl mx-auto">
+          <div class="bg-gradient-to-r from-black to-[#1a1a1a] p-8 rounded-xl border-l-4 border-gold-500 shadow-lg">
+            <h3 class="text-2xl font-bold mb-6 flex items-center">
+              <span class="bg-gold-600 text-black p-2 rounded-full mr-4">
+                <i class="fas fa-calendar-alt w-6 h-6"></i>
+              </span>
+              <span>FECHAS CLAVES DEL CAMPEONATO</span>
+            </h3>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+              <div class="border-b border-gray-800 pb-4">
+                <div class="text-gold-500 font-bold text-lg">INSCRIPCIONES</div>
+                <div class="text-gray-400">Hasta el 30 Abril 2025</div>
+              </div>
+              <div class="border-b border-gray-800 pb-4">
+                <div class="text-gold-500 font-bold text-lg">COMPETENCIAS</div>
+                <div class="text-gray-400">Mayo 2025 - Jueves, Viernes 7PM / Domingos 4PM</div>
+              </div>
+              <div class="border-b border-gray-800 pb-4">
+                <div class="text-gold-500 font-bold text-lg">GRAN FINAL</div>
+                <div class="text-gray-400">28 Junio 2025 - 6PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+
+    <!-- Sección 6 - Premios -->
+    <section id="premios" class="py-24 px-4 bg-black relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://example.com/gold-texture.jpg')] opacity-5"></div>
+        <div class="max-w-6xl mx-auto relative z-10">
+          <div class="text-center mb-16">
+            <span class="text-gold-500 font-medium tracking-widest">RECOMPENSAS</span>
+            <h2 class="text-4xl md:text-5xl font-bold mt-2 font-playfair">PREMIOS EXCLUSIVOS</h2>
+            <p class="text-xl text-gray-400 max-w-3xl mx-auto mt-4">Los ganadores no solo recibirán premios en efectivo, sino oportunidades únicas para crecer en la escena urbana.</p>
+            <div class="w-20 h-1 bg-gold-600 mx-auto mt-4"></div>
+          </div>
+          
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- 1er Puesto -->
+            <div class="bg-gradient-to-b from-[#1a1a1a] to-black p-8 rounded-xl border border-gold-500/20 hover:border-gold-500/50 transition-all transform hover:-translate-y-2 relative overflow-hidden">
+              <div class="absolute -top-10 -right-10 text-[200px] opacity-10 text-gold-500 font-bold">1</div>
+              <div class="relative z-10">
+                <div class="text-gold-500 text-5xl font-bold mb-2">1°</div>
+                <h3 class="text-2xl font-bold mb-4">$4.000.000</h3>
+                <ul class="space-y-3">
+                  <li class="flex items-start">
+                    <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-crown"></i></div>
+                    <span>Hospedaje VIP para 2 personas</span>
+                  </li>
+                  <li class="flex items-start">
+                    <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-trophy"></i></div>
+                    <span>Trofeo MAGIKA Golden Edition</span>
+                  </li>
+                  <li class="flex items-start">
+                    <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-ticket"></i></div>
+                    <span>Pase VIP para todos los eventos 2025</span>
+                  </li>
+                  <li class="flex items-start">
+                    <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-star"></i></div>
+                    <span>Contrato con agencia de talentos</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- 2do Puesto -->
+            <div class="bg-gradient-to-b from-[#1a1a1a] to-black p-8 rounded-xl border border-gray-800 hover:border-gold-500/30 transition-all transform hover:-translate-y-2">
+              <div class="text-gray-400 text-5xl font-bold mb-2">2°</div>
+              <h3 class="text-2xl font-bold mb-4">$2.000.000</h3>
+              <ul class="space-y-3">
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-medal"></i></div>
+                  <span>Medalla Plata MAGIKA</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-ticket"></i></div>
+                  <span>Pase para 5 eventos 2025</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-camera"></i></div>
+                  <span>Sesión fotográfica profesional</span>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- 3er Puesto -->
+            <div class="bg-gradient-to-b from-[#1a1a1a] to-black p-8 rounded-xl border border-gray-800 hover:border-gold-500/30 transition-all transform hover:-translate-y-2">
+              <div class="text-amber-300 text-5xl font-bold mb-2">3°</div>
+              <h3 class="text-2xl font-bold mb-4">$1.000.000</h3>
+              <ul class="space-y-3">
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-medal"></i></div>
+                  <span>Medalla Bronce MAGIKA</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-ticket"></i></div>
+                  <span>Pase para 3 eventos 2025</span>
+                </li>
+                <li class="flex items-start">
+                  <div class="text-gold-500 mr-3 mt-1"><i class="fas fa-tshirt"></i></div>
+                  <span>Kit oficial MAGIKA</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="mt-16 bg-[#111111] rounded-xl p-8 border border-gold-500/20">
+            <div class="flex flex-col md:flex-row items-center">
+              <div class="md:w-1/2 mb-6 md:mb-0">
+                <h3 class="text-2xl font-bold mb-3">PREMIOS ESPECIALES</h3>
+                <p class="text-gray-400">Reconocimientos a Mejor Coreografía, Mejor Vestuario y Premio del Público.</p>
+              </div>
+              <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                <div class="flex items-center">
+                  <div class="text-gold-500 mr-3 text-xl"><i class="fas fa-microphone-alt"></i></div>
+                  <span>Entrevistas exclusivas</span>
+                </div>
+                <div class="flex items-center">
+                  <div class="text-gold-500 mr-3 text-xl"><i class="fas fa-video"></i></div>
+                  <span>Video profesional</span>
+                </div>
+                <div class="flex items-center">
+                  <div class="text-gold-500 mr-3 text-xl"><i class="fas fa-users"></i></div>
+                  <span>Talleres con jurados</span>
+                </div>
+                <div class="flex items-center">
+                  <div class="text-gold-500 mr-3 text-xl"><i class="fas fa-network-wired"></i></div>
+                  <span>Networking premium</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Seccion 7 - Info Extra e Importante-->
+    <div>
+
+       
     </div>
 
-    <!-- Footer (Redes sociales + Contacto) -->
-    <footer class="py-8 px-4 bg-black border-t border-gray-800">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-4 md:mb-0">
-                <h3 class="text-2xl font-bungee text-magika-yellow">MAGIKA</h3>
-                <p class="text-gray-400">Medellín, Colombia</p>
-            </div>
-            <div class="flex space-x-6">
-                <a href="#" class="text-gray-400 hover:text-magika-pink transition-all">Instagram</a>
-                <a href="#" class="text-gray-400 hover:text-magika-pink transition-all">WhatsApp</a>
-                <a href="#" class="text-gray-400 hover:text-magika-pink transition-all">Eventos Privados</a>
-            </div>
+    <!-- Formulario de Inscripción (Call-to-Action claro) -->
+    <section id="inscripcion" class="py-24 px-4 bg-black relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://example.com/dark-pattern.jpg')] opacity-5"></div>
+        <div class="max-w-4xl mx-auto relative z-10">
+          <div class="text-center mb-12">
+            <span class="text-gold-500 font-medium tracking-widest">CONVOCATORIA</span>
+            <h2 class="text-4xl md:text-5xl font-bold mt-2 font-playfair">INSCRÍBETE AHORA</h2>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto mt-4">Reserva tu cupo para el campeonato más exclusivo de baile urbano en Colombia.</p>
+            <div class="w-20 h-1 bg-gold-600 mx-auto mt-4"></div>
+          </div>
+          
+          <div class="bg-gradient-to-b from-[#111111] to-black p-8 md:p-12 rounded-xl border border-gold-500/30 shadow-2xl">
+            <form class="space-y-6">
+              <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label class="block text-gray-300 mb-2 font-medium">Nombre completo *</label>
+                  <input type="text" class="w-full px-5 py-4 bg-[#0a0a0a] border border-gray-800 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent placeholder-gray-600 transition-all" placeholder="Tu nombre completo" required>
+                </div>
+                <div>
+                  <label class="block text-gray-300 mb-2 font-medium">Celular *</label>
+                  <input type="tel" class="w-full px-5 py-4 bg-[#0a0a0a] border border-gray-800 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent placeholder-gray-600 transition-all" placeholder="+57 300 123 4567" required>
+                </div>
+              </div>
+              
+              <div>
+                <label class="block text-gray-300 mb-2 font-medium">Email *</label>
+                <input type="email" class="w-full px-5 py-4 bg-[#0a0a0a] border border-gray-800 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent placeholder-gray-600 transition-all" placeholder="tucorreo@ejemplo.com" required>
+              </div>
+              
+              <div>
+                <label class="block text-gray-300 mb-2 font-medium">Género de baile *</label>
+                <select class="w-full px-5 py-4 bg-[#0a0a0a] border border-gray-800 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent text-gray-300 appearance-none transition-all">
+                  <option class="bg-[#1a1a1a]">Selecciona tu género</option>
+                  <option class="bg-[#1a1a1a]">Break Dance</option>
+                  <option class="bg-[#1a1a1a]">Twerk y Dancehall</option>
+                  <option class="bg-[#1a1a1a]">Baile Urbano Grupal</option>
+                  <option class="bg-[#1a1a1a]">Baile en Pareja</option>
+                  <option class="bg-[#1a1a1a]">Freestyle</option>
+                </select>
+              </div>
+              
+              <div class="pt-4">
+                <button type="submit" class="w-full bg-gradient-to-r from-gold-600 to-gold-700 hover:from-gold-700 hover:to-gold-800 text-black font-bold py-5 px-6 rounded-lg transition-all transform hover:scale-[1.02] shadow-lg shadow-gold-500/20">
+                  <div class="flex items-center justify-center">
+                    <span>RESERVAR MI CUPO POR $500K</span>
+                    <i class="fas fa-arrow-right ml-3"></i>
+                  </div>
+                </button>
+              </div>
+              
+              <div class="text-center text-gray-500 text-sm mt-6">
+                * Al inscribirte aceptas nuestros <a href="#" class="text-gold-500 hover:underline">Términos y Condiciones</a>
+              </div>
+            </form>
+          </div>
         </div>
-    </footer>
+      </section>
+    
+
+
+   
+
+    <!-- Footer (Redes sociales + Contacto) -->
+    <footer class="py-16 px-4 bg-[#0a0a0a] border-t border-gray-900">
+        <div class="max-w-7xl mx-auto">
+          <div class="grid md:grid-cols-3 gap-12">
+            <div>
+              <img src="../assets/logoMagika.png" alt="Logo MAGIKA" class="h-12 mb-6">
+              <p class="text-gray-400 mb-6">El campeonato de baile urbano más prestigioso de Colombia, donde el talento se encuentra con la excelencia.</p>
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
+                  <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div>
+              <h4 class="text-lg font-bold mb-6 text-white">CONTACTO</h4>
+              <ul class="space-y-3">
+                <li class="flex items-start">
+                  <i class="fas fa-map-marker-alt text-gold-500 mt-1 mr-3"></i>
+                  <span class="text-gray-400">Medellín, Colombia</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-phone-alt text-gold-500 mt-1 mr-3"></i>
+                  <span class="text-gray-400">+57 300 123 4567</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-envelope text-gold-500 mt-1 mr-3"></i>
+                  <span class="text-gray-400">info@magikadance.com</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 class="text-lg font-bold mb-6 text-white">NEWSLETTER</h4>
+              <p class="text-gray-400 mb-4">Suscríbete para recibir noticias exclusivas.</p>
+              <form class="flex">
+                <input type="email" placeholder="Tu email" class="px-4 py-3 bg-[#1a1a1a] text-white rounded-l-lg focus:outline-none focus:ring-1 focus:ring-gold-500 w-full">
+                <button type="submit" class="bg-gold-600 hover:bg-gold-700 text-black px-4 rounded-r-lg transition-colors">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          
+          <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-gray-500 text-sm mb-4 md:mb-0">
+              © 2025 MAGIKA Dance Championship. Todos los derechos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
+
+       <!-- Botón flotante WhatsApp -->
+  <a href="#" class="fixed bottom-8 right-8 bg-green-600 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg transition-all transform hover:scale-110 z-50">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 </body>
     
 
