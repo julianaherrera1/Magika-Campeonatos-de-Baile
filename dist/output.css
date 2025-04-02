@@ -708,6 +708,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -971,6 +979,10 @@ video {
 .border-gray-900 {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity, 1));
+}
+
+.border-gold-500\/40 {
+  border-color: rgb(195 166 85 / 0.4);
 }
 
 .bg-\[\#0a0a0a\] {
@@ -1499,6 +1511,10 @@ video {
 
 .hover\:border-gold-500\/50:hover {
   border-color: rgb(195 166 85 / 0.5);
+}
+
+.hover\:border-gold-500\/70:hover {
+  border-color: rgb(195 166 85 / 0.7);
 }
 
 .hover\:bg-gold-700:hover {
