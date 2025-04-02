@@ -586,65 +586,48 @@
    
 
     <!-- Footer (Redes sociales + Contacto) -->
-    <footer class="py-16 px-4 bg-[#0a0a0a] border-t border-gray-900">
-        <div class="max-w-7xl mx-auto">
-          <div class="grid md:grid-cols-3 gap-12">
-            <div>
-              <img src="../assets/logoMagika.png" alt="Logo MAGIKA" class="h-12 mb-6">
-              <p class="text-gray-400 mb-6">El campeonato de baile urbano más prestigioso de Colombia, donde el talento se encuentra con la excelencia.</p>
-              <div class="flex space-x-4">
-                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
-                  <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
-                  <i class="fab fa-youtube"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </div>
+    <footer class="py-12 px-4 bg-[#0a0a0a] border-t border-gray-900">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+          <!-- Logo -->
+          <img src="assets/logoMagika.png" alt="Logo MAGIKA" class="h-16">
+          
+          <!-- Contacto en horizontal -->
+          <div class="flex flex-wrap items-center gap-6">
+            <div class="flex items-center">
+              <i class="fas fa-map-marker-alt text-gold-500 mr-2"></i>
+              <span class="text-gray-400 text-sm">Medellín, Colombia</span>
             </div>
-            
-            <div>
-              <h4 class="text-lg font-bold mb-6 text-white">CONTACTO</h4>
-              <ul class="space-y-3">
-                <li class="flex items-start">
-                  <i class="fas fa-map-marker-alt text-gold-500 mt-1 mr-3"></i>
-                  <span class="text-gray-400">Medellín, Colombia</span>
-                </li>
-                <li class="flex items-start">
-                  <i class="fas fa-phone-alt text-gold-500 mt-1 mr-3"></i>
-                  <span class="text-gray-400">+57 300 123 4567</span>
-                </li>
-                <li class="flex items-start">
-                  <i class="fas fa-envelope text-gold-500 mt-1 mr-3"></i>
-                  <span class="text-gray-400">info@magikadance.com</span>
-                </li>
-              </ul>
+            <div class="flex items-center">
+              <i class="fas fa-phone-alt text-gold-500 mr-2"></i>
+              <span class="text-gray-400 text-sm">+57 300 123 4567</span>
             </div>
-            
-            <div>
-              <h4 class="text-lg font-bold mb-6 text-white">NEWSLETTER</h4>
-              <p class="text-gray-400 mb-4">Suscríbete para recibir noticias exclusivas.</p>
-              <form class="flex">
-                <input type="email" placeholder="Tu email" class="px-4 py-3 bg-[#1a1a1a] text-white rounded-l-lg focus:outline-none focus:ring-1 focus:ring-gold-500 w-full">
-                <button type="submit" class="bg-gold-600 hover:bg-gold-700 text-black px-4 rounded-r-lg transition-colors">
-                  <i class="fas fa-paper-plane"></i>
-                </button>
-              </form>
+            <div class="flex items-center">
+              <i class="fas fa-envelope text-gold-500 mr-2"></i>
+              <span class="text-gray-400 text-sm">info@magikadance.com</span>
             </div>
           </div>
           
-          <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div class="text-gray-500 text-sm mb-4 md:mb-0">
-              © 2025 MAGIKA Dance Championship. Todos los derechos reservados.
-            </div>
+          <!-- Redes Sociales -->
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl" aria-label="TikTok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gold-500 transition-colors text-xl" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
           </div>
         </div>
-      </footer>
+        
+        <!-- Derechos de autor -->
+        <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-xs">
+          © 2025 MAGIKA Dance Championship. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
 
        <!-- Botón flotante WhatsApp -->
   <a href="#" class="fixed bottom-8 right-8 bg-green-600 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg transition-all transform hover:scale-110 z-50">
