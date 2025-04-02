@@ -21,67 +21,107 @@
   <!-- Favicon -->
   <link rel="icon" href="assets/logoMagika.png" type="image/x-icon" sizes="any">
   <link rel="apple-touch-icon" href="assets/logoMagika.png">
+
+  <!--Animaciones-->
+  <!-- En tu head -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body class="bg-black text-white font-urbanist">
 
      <!-- Hero Section 1 - Introduccion-->
-    <header class="relative h-screen overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
-        <!-- Video de fondo (opcional) -->
-        <video autoplay loop muted playsinline class="absolute w-full h-full object-cover">
-            <source src="./assets/video.mp4" type="video/mp4">
-        </video>
-
-
-        <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
-
-              <!-- Logo centrado sobre el título -->
-        <div class="-mb-4 w-48 md:w-56 lg:w-64 mx-auto">
-            <img src="./assets/logoMagika.png" alt="Logo MAGIKA" class="w-full h-auto filter drop-shadow-[0_0_15px_rgba(255,255,255,0.7)]">
+     <header class="relative h-screen overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
+      <video autoplay loop muted playsinline class="absolute w-full h-full object-cover">
+        <source src="./assets/video.mp4" type="video/mp4">
+      </video>
+    
+      <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
+        <!-- Logo con animación de fade-in y zoom sutil -->
+        <div 
+          class="-mb-4 w-48 md:w-56 lg:w-64 mx-auto"
+          data-aos="fade-down"
+          data-aos-delay="100"
+        >
+          <img src="./assets/logoMagika.png" alt="Logo MAGIKA" class="w-full h-auto filter drop-shadow-[0_0_15px_rgba(255,255,255,0.7)]">
         </div>
-
-
-            <h1 class="text-4xl md:text-6xl font-bungee mb-4 text-magika-yellow animate-pulse">CAMPEONATO DE BAILE
-                <br> <span class="text-magika-pink">MAGIKA 2025</span></h1>
-            <p class="text-xl md:text-2xl max-w-3xl mx-auto">Magika se toma la pista. ¡Inscríbete y demuestra tu talento!</p>
-            <a href="#inscripcion" class="mt-8 bg-magika-purple hover:bg-magika-pink text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:scale-105">
-                ¡QUIERO PARTICIPAR!
-            </a>
-        </div>
-
-
+    
+        <!-- Título con animación escalonada -->
+        <h1 
+          class="text-4xl md:text-6xl font-bungee mb-4 text-magika-yellow"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          CAMPEONATO DE BAILE
+          <br> 
+          <span 
+            class="text-magika-pink"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            MAGIKA 2025
+          </span>
+        </h1>
+        
+        <p 
+          class="text-xl md:text-2xl max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          Magika se toma la pista. ¡Inscríbete y demuestra tu talento!
+        </p>
+        
+        <!-- Botón con animación de escala -->
+        <a 
+          href="#inscripcion" 
+          class="mt-8 bg-gradient-to-r from-magika-purple to-magika-pink text-white font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-magika-pink/30"
+          data-aos="zoom-in"
+          data-aos-delay="500"
+        >
+          <span>¡QUIERO PARTICIPAR!</span>
+          <i class="fas fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+        </a>
+      </div>
     </header>
 
    <!-- Sección 2 Historia -->
-   <section id="historia" class="py-24 px-4 bg-black relative">
-    <!-- Fondo con textura sutil -->
-    <div class="absolute inset-0 bg-gradient-to-br from-black to-[#000000] z-0"></div>
-    
-    <div class="max-w-4xl mx-auto relative z-10">
-      <!-- Encabezado -->
-      <div class="text-center mb-16">
-        <span class="text-gold-500 font-medium tracking-widest text-sm uppercase">La Historia</span>
-        <h2 class="text-4xl md:text-5xl font-bold mt-4 font-subheadings text-white">DETRAS DE MAGIKA</h2>
-        <div class="w-20 h-0.5 bg-gold-500 mx-auto mt-6 opacity-60"></div>
+   <section id="historia" class="py-16 px-4 bg-black">
+    <div class="max-w-3xl mx-auto">
+      
+      <!-- Encabezado con fade-in sutil -->
+      <div class="text-center mb-12" data-aos="fade" data-aos-duration="600">
+        <h2 class="text-4xl md:text-5xl font-light text-white tracking-tight">
+          MAGIKA <span class="font-medium text-gold-700">EVOLUCIONA</span>
+        </h2>
+        <div class="w-20 h-0.5 bg-gold-700 mx-auto mt-6 opacity-80" data-aos="fade" data-aos-delay="200" data-aos-duration="800"></div>
       </div>
   
-      <!-- Contenido principal -->
-      <div class="items-start">
-        
-        <!-- Texto historia -->
-        <div class="md:col-span-4 space-y-6 text-gray-300">
-          <p class="text-lg leading-relaxed">
-            Llevamos mas de 15 años en el mercado del entretenimiento nocturno en medellin, abriendo nuestras puertas cada fin de semana para brindarle al pueblo paisa una rumba sin presentes cada fin de semana, sacando la casa por la ventaja. De igual forma trabajando de la mano con grandes empresas como lo son: Bancolombia, Sura, Emi, Agaval, Acrecer entre otras empresas también nos desempeñamos en la realización de eventos empresariales y privados. 
-          </p>
-          <p class="text-lg leading-relaxed">
-            Nos complace informar con gran entusiasmo que Para este 2025 MAGIKA abre sus puertas hacia un nuevo segmento, el cual siempre ha sido nuestro fuerte que es el BAILE… si asi como lo escuchas, en Magika abrimos nuestras instalaciones, en asociación con grandes marcas,casas culturales entre otros abrimos nuestras puertas hacia MI GENTE… NUESTRA GENTE!!
-          </p>
-        
-        </div>
+      <!-- Primer párrafo con desvanecimiento desde la derecha -->
+      <p class="text-gray-300 mb-10 text-center md:text-left text-lg leading-relaxed" 
+         data-aos="fade-right" 
+         data-aos-duration="500"
+         data-aos-easing="ease-out-sine">
+        Llevamos más de 15 años en el mercado del entretenimiento nocturno en Medellín, ofreciendo cada fin de semana al pueblo paisa una experiencia de rumba inigualable. Asimismo, trabajamos de la mano con reconocidas empresas como Bancolombia, Sura, Emi, Agaval, Acrecer, entre otras. También nos especializamos en la organización de eventos empresariales y privados, garantizando momentos inolvidables.
+      </p>
+  
+      <!-- Tarjeta con aparición suave y escalado mínimo -->
+      <div class="p-6 md:p-8 border-l-4 border-gold-700 bg-black-800/50 backdrop-blur-sm" 
+           data-aos="fade-up" 
+           data-aos-delay="100"
+           data-aos-duration="600"
+           data-aos-easing="ease-out-sine">
+        <p class="text-gray-300 text-lg md:text-xl leading-relaxed">
+          <span class="block text-gold-600 font-normal tracking-wide mb-3" 
+                data-aos="fade" 
+                data-aos-delay="300">NUEVO PROYECTO 2025</span>
+          Nos complace anunciar con gran entusiasmo que en 2025 MAGIKA abre sus puertas a un nuevo segmento que siempre ha sido nuestra esencia: ¡el baile! Sí, como lo lees, en MAGIKA damos un paso adelante y, en alianza con grandes marcas y casas culturales, creamos un espacio dedicado a MI GENTE… NUESTRA GENTE. ¡Bienvenidos a esta nueva etapa llena de ritmo y pasión!
+        </p>
       </div>
+  
     </div>
   </section>
+
 
   <!--Seccion 3 - Propuesta General-->
   <div>
@@ -429,6 +469,20 @@
   <a href="#" class="fixed bottom-8 right-8 bg-green-600 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg transition-all transform hover:scale-110 z-50">
     <i class="fab fa-whatsapp"></i>
   </a>
+
+
+  <!--Inicialziar AOS-->
+  <script>
+    AOS.init({
+      duration: 600, // Duración de las animaciones
+      easing: 'ease-out-sine', // Suavizado de las animaciones
+      once: true, // Las animaciones solo ocurren una vez
+      offset: 120,   // Disparar animación cuando el elemento está a 120px del borde
+      delay: 100,          // Retardo base entre animaciones
+      /* disable: window.innerWidth < 768 */ // Desactivar en móviles si prefieres
+      
+    });
+  </script>
 </body>
     
 
