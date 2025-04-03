@@ -26,6 +26,21 @@
   <!-- En tu head -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+  /* Eliminar scroll horizontal */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+  /* Asegurar que el video no cause overflow */
+  video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+</style>
 </head>
 
 <body class="bg-black text-white font-urbanist">
@@ -633,9 +648,12 @@
     </footer>
 
        <!-- Botón flotante WhatsApp -->
-  <a href="https://api.whatsapp.com/send?phone=573212456098&text=Hola%2C%20me%20gustaria%20tener%20mas%20informaci%C3%B3n%20sobre%20los%20campeonatos%20de%20baile%21" target="_blank" class="fixed bottom-8 right-8 bg-green-600 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg transition-all transform hover:scale-110 z-50">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+<a href="https://api.whatsapp.com/send?phone=573212456098&text=Hola%2C%20me%20gustaria%20tener%20mas%20informaci%C3%B3n%20sobre%20los%20campeonatos%20de%20baile%21" 
+target="_blank" 
+class="fixed sm:bottom-8 sm:right-8 bottom-4 right-4 bg-green-600 hover:bg-green-700 text-white w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center text-xl sm:text-2xl shadow-lg transition-all transform hover:scale-110 z-[9999]"
+style="transform: translateZ(0); /* Acelera renderizado en móviles */">
+<i class="fab fa-whatsapp"></i>
+</a>
 
 
   <!--Inicialziar AOS-->
